@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["xlsx", "jest"]
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "exclude": ["node_modules"]
+}
